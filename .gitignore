@@ -1,0 +1,55 @@
+
+# ==========================================
+# EasyEDA / JLCEDA - Git Ignore Rules
+# ==========================================
+
+# 1. Automatic backup directories
+*_backup/
+projects-recovery/
+
+# 2. SQLite temporary transaction files
+# For EasyEDA Pro .eprj / .eprj2 projects
+*.eprj-wal
+*.eprj-shm
+*.eprj-journal
+*.eprj2-wal
+*.eprj2-shm
+*.eprj2-journal
+
+# 3. Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# 4. Microsoft Office temporary files
+~$*
+
+# 5. Operating system files
+Thumbs.db
+Thumbs.db:encryptable
+desktop.ini
+.DS_Store
+
+# 6. Editor settings (optional)
+.vscode/
+# EasyEDA system library / local auxiliary file
+/Hardware/0819f05c4eef4c71ace90d822a990e87
+
+
+# ==========================================
+# IMPORTANT: Keep EDA source files tracked
+# ==========================================
+# Do NOT ignore:
+# *.eprj
+# *.eprj2
+# *.eprj3
+# *.epro
+# *.epro2
+# *.esch2
+# *.epcb2
+# *.ecfg
+# *.evar
+# *.json
+# *.elibz
